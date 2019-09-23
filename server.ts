@@ -4,6 +4,8 @@ import * as path from 'path';
 
 const port: number | string = process.env.PORT || 3000;
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.get('/app.js', (req: express.Request, res: express.Response) =>
   res.sendFile(path.join(__dirname, 'dist', 'bundle.js'))
 );
