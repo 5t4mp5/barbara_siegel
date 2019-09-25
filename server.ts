@@ -10,7 +10,7 @@ app.get('/app.js', (req: express.Request, res: express.Response) =>
   res.sendFile(path.join(__dirname, 'dist', 'bundle.js'))
 );
 
-app.get('/', (req: express.Request, res: express.Response) =>
+app.get('*', (req: express.Request, res: express.Response) =>
   res.sendFile(path.join(__dirname, 'index.html'))
 );
 
