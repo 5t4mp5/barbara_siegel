@@ -17,11 +17,14 @@ const Nav: React.FunctionComponent = () => {
   ];
   return (
     <ul className="nav">
-      {tabs.map((tab: string) => (
-        <li>
-          <Link to={normalizeForLink(tab)}>{tab}</Link>
-        </li>
-      ))}
+      {tabs.map((tab: string) => {
+        const link: string = normalizeForLink(tab);
+        return (
+          <li key={link}>
+            <Link to={link}>{tab}</Link>
+          </li>
+        );
+      })}
     </ul>
   );
 };
