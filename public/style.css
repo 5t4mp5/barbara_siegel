@@ -49,6 +49,14 @@ body {
   color: hsla(0, 0%, 100%, 0.62);
 }
 
+.nav-item.active {
+  background-color: darkblue;
+}
+
+.nav-item.active a {
+  color: white;
+}
+
 .link-button {
   display: flex;
   margin: 10px;
