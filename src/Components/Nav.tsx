@@ -7,12 +7,12 @@ const normalizeForLink: Function = (str: string): string =>
 const Nav: React.FunctionComponent = () => {
   const tabs: Array<string> = [
     'Home',
+    'About Me',
+    'Services',
     'Listings',
     'Past Sales',
-    'About Me',
     'Testimonials',
     'About Friedberg',
-    'Services',
     'Mortgage Info',
   ];
   return (
