@@ -13,7 +13,7 @@ const App: React.FunctionComponent = () => {
       <Route component={Nav} />
       <Route path="/home/" component={Home} />
       <Route path="/mortgage-info/" component={MortgageCalc} />
-      <Redirect to="/home/" />
+      <Redirect to="/home" />
     </Router>
   );
 };
