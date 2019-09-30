@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { PhoneButton, EmailButton } from './Buttons';
 
 const Header: React.FunctionComponent = () => {
   return (
@@ -29,12 +29,8 @@ const Header: React.FunctionComponent = () => {
         />
       </li>
       <li>
-        <a href="mailto:barbaras5@gmail.com" className="link-button">
-          Email Me
-        </a>
-        <a href="tel:201-280-7653" className="link-button">
-          Call Me
-        </a>
+        <EmailButton />
+        <PhoneButton />
       </li>
     </ul>
   );
