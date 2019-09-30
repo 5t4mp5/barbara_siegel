@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { EmailButton, PhoneButton } from './Buttons';
 
 const ContactCard: React.FunctionComponent = () => {
   return (
@@ -7,6 +8,17 @@ const ContactCard: React.FunctionComponent = () => {
         src="B-SIEGEL-HEADER.JPG"
         style={{ height: '100px', width: '100px', borderRadius: '50%' }}
       />
+      <h3>Barbara Siegel</h3>
+      <p>Realtor</p>
+      <div>123 Fake Street</div>
+      <div>Fake Town, NJ 07000</div>
+      <div>(201) 280-7653</div>
+      <div>barbaras5@aol.com</div>
+      <div
+        style={{ display: 'flex', flexDirection: 'row', marginTop: '2.5vh' }}
+      >
+        <EmailButton /> <PhoneButton />
+      </div>
     </div>
   );
 };
