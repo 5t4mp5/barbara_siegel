@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin-top: 2.5vh;
+  margin: 2.5vh, 2.5vh, 0, 2.5vh;
   align-items: center;
   justify-content: space-between;
 }

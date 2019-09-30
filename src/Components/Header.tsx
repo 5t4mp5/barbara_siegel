@@ -4,28 +4,28 @@ import { Link } from 'react-router-dom';
 const Header: React.FunctionComponent = () => {
   return (
     <ul className="header">
-      <li style={{ flexDirection: 'row' }}>
+      <li
+        style={{
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
         <img
           src="B-SIEGEL-HEADER.JPG"
-          style={{ width: 'auto', height: '120px', borderRadius: '50%' }}
+          style={{ width: 'auto', height: '100px', borderRadius: '50%' }}
         />
-        <div
-          style={{
-            flexDirection: 'column',
-            marginLeft: '5px',
-            fontSize: '28px',
-            alignItems: 'center',
-          }}
-        >
-          <p>Barbara Siegel</p>
-          <p>(201) 280-7653</p>
-          <p>barbaras5@aol.com</p>
-        </div>
+        <p>Barbara Siegel</p>
+        <p>(201) 280-7653</p>
+        <p>barbaras5@aol.com</p>
       </li>
       <li>
         <img
           src="friedberg-logo.png"
-          style={{ height: '120px', width: 'auto' }}
+          style={{
+            height: '140px',
+            width: 'auto',
+          }}
         />
       </li>
       <li>
