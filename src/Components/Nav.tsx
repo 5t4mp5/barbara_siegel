@@ -4,7 +4,7 @@ import { Link, RouteComponentProps } from 'react-router-dom';
 const normalizeForLink: Function = (str: string): string =>
   str.replace(' ', '-').toLowerCase();
 
-const Nav: Function = ({
+const Nav: React.FunctionComponent<RouteComponentProps> = ({
   location,
 }: RouteComponentProps<{ pathname: string }>) => {
   const tabs: Array<string> = [
