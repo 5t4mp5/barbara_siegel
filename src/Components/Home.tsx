@@ -10,7 +10,7 @@ const Home: React.FunctionComponent = () => {
         <a href="mailto:barbaras5@gmail.com" className="link-button">
           Email Me
         </a>
-        <a href="201-280-7653" className="link-button">
+        <a href="tel:201-280-7653" className="link-button">
           Call Me
         </a>
       </div>

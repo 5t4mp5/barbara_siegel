@@ -19,6 +19,7 @@ const Header: React.FunctionComponent = () => {
         >
           <p>Barbara Siegel</p>
           <p>(201) 280-7653</p>
+          <p>barbaras5@aol.com</p>
         </div>
       </li>
       <li>
@@ -29,7 +30,10 @@ const Header: React.FunctionComponent = () => {
       </li>
       <li>
         <a href="mailto:barbaras5@gmail.com" className="link-button">
-          Contact Me
+          Email Me
+        </a>
+        <a href="tel:201-280-7653" className="link-button">
+          Call Me
         </a>
       </li>
     </ul>
