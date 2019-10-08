@@ -1,15 +1,25 @@
 import * as React from 'react';
+import ContactCard from './ContactCard';
 const MortgageCalculator: any = require('mortgage-calculator-react');
 
 const MortgageCalc: React.FunctionComponent = () => {
   console.log(MortgageCalculator.default);
   return (
-    // <iframe
-    //   src="https://www.realtor.com/mortgage/tools/mortgage-calculator/?iframe=true"
-    //   style={{ width: '100%', height: '100%' }}
-    // />
-
-    <MortgageCalculator.default />
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+      }}
+    >
+      <iframe
+        src="https://www.realtor.com/mortgage/tools/mortgage-calculator/?iframe=true"
+        style={{ width: '50%', height: '100vh' }}
+      />
+      <ContactCard />
+    </div>
+    // <MortgageCalculator.default />
   );
 };
 

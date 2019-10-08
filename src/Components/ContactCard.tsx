@@ -6,7 +6,7 @@ const ContactCard: React.FunctionComponent = () => {
     <div className="contact-card">
       <img
         src="B-SIEGEL-HEADER.JPG"
-        style={{ height: '10vh', borderRadius: '50%' }}
+        style={{ height: '10vh' }}
       />
       <h3 style={{ margin: '10px' }}>Barbara Siegel</h3>
       <p style={{ marginTop: '10px', fontWeight: 'bold' }}>Realtor</p>
