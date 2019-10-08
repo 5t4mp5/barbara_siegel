@@ -13,7 +13,7 @@ const Header: React.FunctionComponent = () => {
       >
         <img
           src="B-SIEGEL-HEADER.JPG"
-          style={{ width: 'auto', height: '100px', borderRadius: '50%' }}
+          style={{ height: '10vh', borderRadius: '50%' }}
         />
         <p>Barbara Siegel</p>
         <p>(201) 280-7653</p>
